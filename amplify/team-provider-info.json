@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-xamiv2-staging-da473-authRole",
+      "UnauthRoleArn": "arn:aws:iam::662939377036:role/amplify-xamiv2-staging-da473-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::662939377036:role/amplify-xamiv2-staging-da473-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-xamiv2-staging-da473-deployment",
+      "UnauthRoleName": "amplify-xamiv2-staging-da473-unauthRole",
+      "StackName": "amplify-xamiv2-staging-da473",
+      "StackId": "arn:aws:cloudformation:us-west-1:662939377036:stack/amplify-xamiv2-staging-da473/550a22d0-26d2-11ef-b350-02f22fe2cff3",
+      "AmplifyAppId": "dji2ygkzae9u5"
+    },
+    "categories": {
+      "auth": {
+        "XamiV2": {}
+      }
+    }
+  }
+}

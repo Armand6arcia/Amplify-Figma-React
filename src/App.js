@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import { withAuthenticator } from "@aws-amplify/ui-react";
+import NavBarHeader from "./ui-components/NavBarHeader"
+import XamiSide from "./ui-components/XamiSide"
+import { Home } from './Pages/Home'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+      <>
+        <header><NavBarHeader /></header>
+
+        <XamiSide height={'94vh'} width={'260px'}/>
+      </>
+    )
 }
 
-export default App;
+export default withAuthenticator(App)

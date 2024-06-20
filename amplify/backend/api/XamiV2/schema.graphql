@@ -1,0 +1,19 @@
+type Organizacion @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Nombre: String
+  Correo: AWSEmail
+}
+
+type XamiCards @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Img: AWSURL
+  Title: String
+  Modelo: String
+  Temperatura: Int
+  Entrenamiento: String
+  Bienvenida: String
+  Peticiones: Boolean
+  Acceso: Boolean
+  Seguridad: Boolean
+}
+ 
