@@ -53,7 +53,7 @@ export default function NavApp(props) {
           {...getOverrideProps(overrides, "MyIcon")}
         ></MyIcon>
         <Text
-          fontFamily="Inter"
+          fontFamily="Roboto"
           fontSize="36px"
           fontWeight="400"
           color="rgba(0,0,0,1)"
@@ -102,7 +102,7 @@ export default function NavApp(props) {
           {...getOverrideProps(overrides, "Button")}
         >
           <Text
-            fontFamily="Inter"
+            fontFamily="Roboto"
             fontSize="18px"
             fontWeight="500"
             color="rgba(255,255,255,1)"

@@ -4,10 +4,15 @@ const Ayuda =() => {
     return (
         <>
         <div><a href="/"><img src="hogar.png" width={'18px'}></img></a>    /    Ayuda</div>
-                
-        <div class="titulopagina"><p>Solicitar ayuda</p></div>
+
+            <table className='table'>
+                <tr>
+                    <td class="titulopagina">Solicitar ayuda</td>
+                    <td ></td>
+                </tr>
+            </table>
     
-        <div class="paragraph"> <p>¿Necesitas ayuda o tienes alguna pregunta? No dudes en contactarnos.<br></br><br></br>           
+        <div class="layout"> <p>¿Necesitas ayuda o tienes alguna pregunta? No dudes en contactarnos.<br></br><br></br>           
             Si estás enfrentando algún problema, tienes inquietudes o simplemente necesitas 
             asistencia, nuestro equipo de soporte estará encantado de ayudarte. Envía un correo
             electrónico a xami@codster.io  y uno de nuestros representantes de soporte se pondrá en

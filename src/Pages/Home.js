@@ -6,7 +6,7 @@ const Home =() =>{
         <>
             <div><a href="/"><img src="hogar.png" width={'18px'}></img></a>  /  </div>
 
-            <table>
+            <table className='table'>
 	            <tr>
 		            <td class="titulopagina">Aplicaciones</td>
 		            <td ><a href="/CreateForm" class="botoncrear">NUEVA APLICACIÓN</a></td>

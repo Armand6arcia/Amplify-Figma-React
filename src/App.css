@@ -1,61 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wgh@400;900&display=swap');
-
-body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  color: aliceblue;
-}
-
-header {
-  background: #FFFFFF;
-  border: solid 0.5px;
-  border-color: rgb(199, 199, 199);
-  width: 100vw;
-  margin-top: -10px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .app {
-  padding: 10px;
-  float: left;
-  width: 20%;
-  text-align: justify;
-  height: 94vh;
   background: rgb(255, 255, 255);
-  border: solid, 0.5px, rgb(199, 199, 199);
 }
 
 .content {
-  padding: 10px;
-  float: right;
-  width:  78%;
-  text-align: justify;
-  color: black;
-  margin-top: 90px;
+  background: rgb(255, 255, 255);
+  margin-top: -92vh;
+  margin-left: 260px;
+}
+
+.table {
+  width: 99.5%;
+  border: solid;
+  border-width: 0.5px;
+  border-color: rgb(199, 199, 199);
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 .titulopagina {
-  color: black;
   font-size: 35px;
-  padding-top: -10px;
-  border-bottom: solid, 0.5px, rgb(199, 199, 199);
-  width: 80%;
 }
 
 .botoncrear {
-  background: rgb(75, 149, 247);
-  font-style: normal;
-  color: #FFFFFF;
-  text-decoration: none;
-  padding: 10px 30px;
-  border: none;
+  padding: 10px;
   border-radius: 10px;
+  position: absolute;
+  right: 0;
+  margin-right: 15px;
+  margin-top: -25px;
+  text-decoration: none;
+  background: rgb(67, 172, 233);
+  color: white;
+  align-content: flex-end;
 }
 
-.paragraph {
-  width: 46%;
-  position: absolute;
-  text-align: left;
-  align-items: center;
+.cardscollection {
+  padding-top: 50px;
+}
+
+.layout {
+  width: 45%;
+  margin: 0 auto;
+  padding-top: 50px;
 }

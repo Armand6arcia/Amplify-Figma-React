@@ -1,15 +1,13 @@
 import './App.css'
 import { withAuthenticator } from "@aws-amplify/ui-react";
-import NavBarHeader from "./ui-components/NavBarHeader"
+import { NavBarHeader } from "./ui-components/";
 import XamiSide from "./ui-components/XamiSide"
-import { Home } from './Pages/Home'
 
 function App() {
     return (
       <>
-        <header><NavBarHeader /></header>
-
-        <XamiSide height={'94vh'} width={'260px'}/>
+        <header><NavBarHeader width={'100vw'} border={'solid, 0.5px, rgb(199, 199, 199)'}/></header>
+        <XamiSide height={'93vh'} width={'250px'} border={'solid, 0.5px, rgb(199, 199, 199)'} marginTop={'-1px'}/>
       </>
     )
 }

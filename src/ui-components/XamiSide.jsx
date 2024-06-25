@@ -123,8 +123,8 @@ export default function XamiSide(props) {
                 ></MyIcon>
               </Flex>
               <Text
-                fontFamily="Arial"
-                fontSize="18px"
+                fontFamily="Roboto"
+                fontSize="20px"
                 fontWeight="400"
                 color="rgba(0,0,0,1)"
                 lineHeight="24px"
@@ -186,8 +186,8 @@ export default function XamiSide(props) {
                 ></MyIcon>
               </Flex>
               <Text
-                fontFamily="Arial"
-                fontSize="18px"
+                fontFamily="Roboto"
+                fontSize="20px"
                 fontWeight="400"
                 color="rgba(0,0,0,1)"
                 lineHeight="24px"
@@ -252,8 +252,8 @@ export default function XamiSide(props) {
                 ></MyIcon>
               </Flex>
               <Text
-                fontFamily="Arial"
-                fontSize="18px"
+                fontFamily="Roboto"
+                fontSize="20px"
                 fontWeight="400"
                 color="rgba(0,0,0,1)"
                 lineHeight="24px"
@@ -344,8 +344,8 @@ export default function XamiSide(props) {
                 {...getOverrideProps(overrides, "Frame 3213852845")}
               >
                 <Text
-                  fontFamily="Arial"
-                  fontSize="18px"
+                  fontFamily="Roboto"
+                  fontSize="20px"
                   fontWeight="400"
                   color="rgba(13,26,38,1)"
                   lineHeight="24px"
